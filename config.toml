@@ -1,6 +1,6 @@
 baseURL = "https://docs.devops-art-factory.com/"
 title = "Terraform & AWS 101"
-theme = "hugo-theme-learn"
+theme = "learn"
 defaultContentLanguage="ko"
 uglyurls = false
 relativeURLs = true

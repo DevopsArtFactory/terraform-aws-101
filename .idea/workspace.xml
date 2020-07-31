@@ -11,23 +11,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8cc6e0ac-777e-41f7-a0a7-a38a5ad78779" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/content/advanced/backend.ko.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/advanced/cowork.ko.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/advanced/variables.ko.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/cont/iam-user-intro.ko.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/cont/iam-user-practice.ko.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/cont/s3-intro.ko.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/cont/s3-practice.ko.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/cont/vpc-practice.ko.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/intro/_index.ko.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/intro/role/_index.ko.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/intro/understandings/_index.ko.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/preparation/_index.ko.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/preparation/aws-configure/_index.ko.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/preparation/install-terraform-aws/_index.ko.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/preparation/install-terraform-aws/images/cli-capture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/preparation/terraform-basic/_index.ko.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/hugo-theme-learn/i18n/ko.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/learn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/basics/configuration/_index.en/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/basics/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/basics/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/basics/installation/_index.en/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/basics/installation/images/chapter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/basics/requirements/_index.en/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/basics/requirements/images/magic.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/basics/style-customization/_index.en/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/basics/style-customization/images/blue-variant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/basics/style-customization/images/green-variant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/basics/style-customization/images/red-variant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cont/archetypes/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cont/i18n/images/i18n-menu.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cont/i18n/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cont/i18n/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cont/icons/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cont/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/cont/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cont/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/cont/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cont/markdown/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cont/menushortcuts/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cont/pages/images/frontmatter-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cont/pages/images/pages-chapter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cont/pages/images/pages-default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cont/pages/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cont/pages/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cont/syntaxhighlight/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cont/tags/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/intro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/intro/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/intro/role/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/intro/role/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/intro/understandings/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/intro/understandings/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/preparation/aws-configure/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/preparation/aws-configure/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/preparation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/preparation/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/preparation/install-terraform-aws/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/preparation/install-terraform-aws/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/preparation/terraform-basic/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/preparation/terraform-basic/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/documentation/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/documentation/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/tutorial/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/tutorial/index.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/LICENSE.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/config.toml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/_index.en.md" beforeDir="false" />
@@ -154,18 +187,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/content/advanced" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/themes/learn/i18n" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/learn/i18n" />
       <recent name="$PROJECT_DIR$/content/advanced" />
       <recent name="$PROJECT_DIR$/content/cont" />
       <recent name="$PROJECT_DIR$/content/preparation/install-terraform-aws/images" />
       <recent name="$PROJECT_DIR$/content/preparation" />
-      <recent name="$PROJECT_DIR$/content/intro" />
     </key>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,9 +220,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="662" y="279" width="776" height="580" key="find.popup" timestamp="1596210273821">
+    <state x="662" y="279" width="776" height="580" key="find.popup" timestamp="1596217465185">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="662" y="279" width="776" height="580" key="find.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1596210273821" />
+    <state x="662" y="279" width="776" height="580" key="find.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1596217465185" />
   </component>
 </project>
