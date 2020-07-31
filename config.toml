@@ -2,8 +2,11 @@ baseURL = "https://docs.devopsart.dev/"
 title = "Terraform & AWS 101"
 theme = "learn"
 defaultContentLanguage="ko"
-uglyurls = false
-relativeURLs = true
+relativeURLs=true
+canonifyURLs=false
+
+# Will give values to .Lastmod etc.
+enableGitInfo = true
 
 [params]
   description = "Documentation for Hugo Learn Theme"
@@ -21,7 +24,3 @@ relativeURLs = true
 ## Configuration for BlackFriday markdown parser: https://github.com/russross/blackfriday
 [blackfriday]
 hrefTargetBlank = true
-
-[outputs]
-home = [ "HTML", "JSON"]
-page = [ "HTML" ]
