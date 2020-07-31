@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/cont/pages/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/cont/archetypes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/intro/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/basics/requirements/_index.en/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/intro/understandings/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/intro/role/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/cont/markdown/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/basics/installation/_index.en/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/cont/syntaxhighlight/</loc>
+    <lastmod>2020-06-01T13:31:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/basics/configuration/_index.en/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/preparation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/preparation/install-terraform-aws/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/preparation/aws-configure/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/preparation/terraform-basic/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/cont/menushortcuts/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/basics/style-customization/_index.en/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/cont/icons/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/cont/</loc>
+    <lastmod>2020-06-01T13:31:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/cont/i18n/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/cont/tags/</loc>
+    <lastmod>2018-11-29T08:41:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/basics/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/</loc>
+    <lastmod>2020-06-01T13:31:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/tags/documentation/</loc>
+    <lastmod>2018-11-29T08:41:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/tags/</loc>
+    <lastmod>2018-11-29T08:41:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/tags/tutorial/</loc>
+    <lastmod>2018-11-29T08:41:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://docs.devops-art-factory.com/categories/</loc>
+  </url>
+  
+</urlset>

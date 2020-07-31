@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8cc6e0ac-777e-41f7-a0a7-a38a5ad78779" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/content/advanced/backend.ko.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/advanced/cowork.ko.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/advanced/variables.ko.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/cont/iam-user-intro.ko.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/cont/iam-user-practice.ko.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/cont/s3-intro.ko.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/cont/s3-practice.ko.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/cont/vpc-practice.ko.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/intro/_index.ko.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/intro/role/_index.ko.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/intro/understandings/_index.ko.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/preparation/_index.ko.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/preparation/aws-configure/_index.ko.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/preparation/install-terraform-aws/_index.ko.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/preparation/install-terraform-aws/images/cli-capture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/preparation/terraform-basic/_index.ko.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-theme-learn/i18n/ko.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/basics/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/basics/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/basics/_index.zh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/basics/configuration/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/basics/configuration/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/basics/installation/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/basics/installation/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/basics/installation/images/chapter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/basics/requirements/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/basics/requirements/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/basics/requirements/images/magic.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/basics/style-customization/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/basics/style-customization/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/basics/style-customization/images/blue-variant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/basics/style-customization/images/green-variant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/basics/style-customization/images/red-variant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/cont/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/cont/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/cont/archetypes.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/cont/archetypes.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/cont/i18n/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/cont/i18n/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/cont/i18n/images/i18n-menu.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/cont/icons.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/cont/markdown.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/cont/markdown.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/cont/menushortcuts.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/cont/menushortcuts.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/cont/pages/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/cont/pages/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/cont/pages/images/frontmatter-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/cont/pages/images/pages-chapter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/cont/pages/images/pages-default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/cont/syntaxhighlight.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/cont/tags.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/cont/tags.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/credits.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/credits.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/attachments.en.files/BachGavotteShort.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/attachments.en.files/Carroll_AliceAuPaysDesMerveilles.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/attachments.en.files/adivorciarsetoca00cape.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/attachments.en.files/hugo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/attachments.en.files/movieselectricsheep-flock-244-32500-2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/attachments.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/attachments.fr.files/BachGavotteShort.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/attachments.fr.files/Carroll_AliceAuPaysDesMerveilles.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/attachments.fr.files/adivorciarsetoca00cape.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/attachments.fr.files/hugo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/attachments.fr.files/movieselectricsheep-flock-244-32500-2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/attachments.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/button.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/button.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/children/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/children/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/children/children-1/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/children/children-1/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/children/children-1/children-1-1/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/children/children-1/children-1-1/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-1/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-1/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/children/children-2/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/children/children-2/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/children/children-2/test3.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/children/children-2/test3.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/children/children-3/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/children/children-3/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/children/children-4/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/children/children-4/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/children/test.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/children/test.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/expand.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/expand.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/mermaid.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/mermaid.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/notice.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/notice.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/siteparam.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/shortcodes/siteparam.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/showcase.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/content/showcase.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/layouts/partials/custom-footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/layouts/partials/logo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/layouts/partials/menu-footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/layouts/shortcodes/ghcontributors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/static/css/theme-mine.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/static/fonts/monogramos-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/static/fonts/monogramos-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/static/fonts/monogramos-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/static/fonts/monogramos-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/static/fonts/monogramos-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/static/images/showcase/inteliver_docs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/static/images/showcase/tat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/exampleSite/static/images/showcase/tshark_dev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn/static/js/highlight.pack.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-theme-learn/static/js/highlight.pack.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.14.4/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fOkv8CAdbVxxWh1hfVHqSN9LC5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/content/advanced" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/advanced" />
+      <recent name="$PROJECT_DIR$/content/cont" />
+      <recent name="$PROJECT_DIR$/content/preparation/install-terraform-aws/images" />
+      <recent name="$PROJECT_DIR$/content/preparation" />
+      <recent name="$PROJECT_DIR$/content/intro" />
+    </key>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="Makefile" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="662" y="279" width="776" height="580" key="find.popup" timestamp="1596210273821">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="662" y="279" width="776" height="580" key="find.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1596210273821" />
+  </component>
+</project>
