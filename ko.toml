@@ -1,0 +1,20 @@
+[Search-placeholder]
+other = "검색하기..."
+
+[title-404]
+other = "Error"
+
+[message-404]
+other = "Woops. Looks like this page doesn't exist ¯\\_(ツ)_/¯."
+
+[Go-to-homepage]
+other = "Go to homepage"
+
+[Edit-this-page]
+other = "Edit this page"
+
+[Shortcuts-Title]
+other = "더보기"
+
+[Expand-title]
+other = "Expand me..."
