@@ -1,4 +1,4 @@
-baseURL = "https://docs.devops-art-factory.com/"
+baseURL = "https://docs.devopsart.dev/"
 title = "Terraform & AWS 101"
 theme = "learn"
 defaultContentLanguage="ko"
