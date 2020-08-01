@@ -11,8 +11,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8cc6e0ac-777e-41f7-a0a7-a38a5ad78779" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/content/cont/vpc-practice/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/cont/vpc-practice/vpc-practice-with-igw.ko.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/cont/vpc-practice/vpc-practice-with-nat.ko.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/cont/vpc-practice/vpc-practice-with-route-table.ko.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/cont/vpc-practice/vpc-practice-with-subnet.ko.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/cont/vpc-practice/vpc-practice.ko.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cont/vpc-intro.ko.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/cont/vpc-intro.ko.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cont/vpc-practice.ko.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/preparation/aws-configure/_index.ko.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/preparation/aws-configure/_index.ko.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/_index.ko.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/attachments.ko.files/BachGavotteShort.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/attachments.ko.files/Carroll_AliceAuPaysDesMerveilles.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/attachments.ko.files/adivorciarsetoca00cape.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/attachments.ko.files/hugo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/attachments.ko.files/movieselectricsheep-flock-244-32500-2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/attachments.ko.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/button.ko.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-1/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-1/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-1/children-1-1/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-1/children-1-1/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-1/children-1-1/children-1-1-1/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-1/children-1-1/children-1-1-1/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-2/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-2/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-2/test3.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-2/test3.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-3/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-3/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-4/_index.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-4/_index.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/test.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/test.fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/expand.ko.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/mermaid.ko.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/notice.ko.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/siteparam.ko.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/theme-mine.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/theme-mine.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,19 +78,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/themes/learn/i18n" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/content/cont/vpc-practice" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/cont/vpc-practice" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/static/images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/cont/vpc-practice" />
       <recent name="$PROJECT_DIR$/themes/learn/i18n" />
       <recent name="$PROJECT_DIR$/content/advanced" />
       <recent name="$PROJECT_DIR$/content/cont" />
       <recent name="$PROJECT_DIR$/content/preparation/install-terraform-aws/images" />
-      <recent name="$PROJECT_DIR$/content/preparation" />
     </key>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,9 +113,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="662" y="279" width="776" height="580" key="find.popup" timestamp="1596217465185">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="883" y="372" width="1035" height="774" key="find.popup" timestamp="1596264444168">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="662" y="279" width="776" height="580" key="find.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1596217465185" />
+    <state x="883" y="372" width="1035" height="774" key="find.popup/2560.0.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1596264444168" />
   </component>
 </project>
