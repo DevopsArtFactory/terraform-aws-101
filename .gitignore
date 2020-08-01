@@ -1,1 +1,7 @@
-public
+.idea
+./configs/*
+website
+base-infrastructure
+bin
+out
+venv
