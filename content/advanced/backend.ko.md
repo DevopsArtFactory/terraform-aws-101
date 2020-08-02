@@ -44,7 +44,10 @@ AWS S3는 쉽게 구축할 수 있으며 versioning 을 지원하는 안전한 �
 ####  DynamoDB Table for Lock
 동시에 같은 파일을 수정하지 못하도록 하기 위해 DynamoDB에 작업에 대한 Lock을 생성합니다.
 
-Terraform code init.tf
+#### 코드생성
+Terraform code `init.tf` 파일을 작성합니다.
+Terraform Backend 설정을 위한 s3 와 DynamoDB를 생성하는 코드입니다.
+
 ```bash
 provider "aws" {
   region = "ap-northeast-2" # Please use the default region ID
@@ -53,7 +56,7 @@ provider "aws" {
 
 # S3 bucket for backend
 resource "aws_s3_bucket" "tfstate" {
-  bucket = "${var.account_id}-apnortheast2-tfstate"
+  bucket = "tf101-inflearn-apne2-tfstate"
 
   versioning {
     enabled = true # Prevent from deleting tfstate file
@@ -62,7 +65,7 @@ resource "aws_s3_bucket" "tfstate" {
 
 # DynamoDB for terraform state lock
 resource "aws_dynamodb_table" "terraform_state_lock" {
-  name           = "terraform-lock"
+  name           = "inflearn-terraform-lock"
   hash_key       = "LockID"
   billing_mode   = "PAY_PER_REQUEST"
 
@@ -70,6 +73,257 @@ resource "aws_dynamodb_table" "terraform_state_lock" {
     name = "LockID"
     type = "S"
   }
+}
+```
+
+`terraform plan` 명령어 결과입니다.
+작성한 `init.tf` 파일로 생성되는 예상 결과를 나타냅니다. 
+```bash
+$ terraform plan 
+Refreshing Terraform state in-memory prior to plan...
+The refreshed state will be used to calculate this plan, but will not be
+persisted to local or remote state storage.
+
+------------------------------------------------------------------------
+
+An execution plan has been generated and is shown below.
+Resource actions are indicated with the following symbols:
+  + create
+
+Terraform will perform the following actions:
+
+  # aws_dynamodb_table.terraform_state_lock will be created
+  + resource "aws_dynamodb_table" "terraform_state_lock" {
+      + arn              = (known after apply)
+      + billing_mode     = "PAY_PER_REQUEST"
+      + hash_key         = "LockID"
+      + id               = (known after apply)
+      + name             = "terraform-lock"
+      + stream_arn       = (known after apply)
+      + stream_label     = (known after apply)
+      + stream_view_type = (known after apply)
+
+      + attribute {
+          + name = "LockID"
+          + type = "S"
+        }
+
+      + point_in_time_recovery {
+          + enabled = (known after apply)
+        }
+
+      + server_side_encryption {
+          + enabled     = (known after apply)
+          + kms_key_arn = (known after apply)
+        }
+    }
+
+  # aws_s3_bucket.tfstate will be created
+  + resource "aws_s3_bucket" "tfstate" {
+      + acceleration_status         = (known after apply)
+      + acl                         = "private"
+      + arn                         = (known after apply)
+      + bucket                      = "tf101-inflearn-apne2-tfstate"
+      + bucket_domain_name          = (known after apply)
+      + bucket_regional_domain_name = (known after apply)
+      + force_destroy               = false
+      + hosted_zone_id              = (known after apply)
+      + id                          = (known after apply)
+      + region                      = (known after apply)
+      + request_payer               = (known after apply)
+      + website_domain              = (known after apply)
+      + website_endpoint            = (known after apply)
+
+      + versioning {
+          + enabled    = true
+          + mfa_delete = false
+        }
+    }
+
+Plan: 2 to add, 0 to change, 0 to destroy.
+
+------------------------------------------------------------------------
+
+Note: You didn't specify an "-out" parameter to save this plan, so Terraform
+can't guarantee that exactly these actions will be performed if
+"terraform apply" is subsequently run.
+
+```
+
+곧이어 `terraform apply` 명령어를 입력합니다.
+```bash
+$ tf12 apply 
+
+An execution plan has been generated and is shown below.
+Resource actions are indicated with the following symbols:
+  + create
+
+Terraform will perform the following actions:
+
+  # aws_dynamodb_table.terraform_state_lock will be created
+  + resource "aws_dynamodb_table" "terraform_state_lock" {
+      + arn              = (known after apply)
+      + billing_mode     = "PAY_PER_REQUEST"
+      + hash_key         = "LockID"
+      + id               = (known after apply)
+      + name             = "terraform-lock"
+      + stream_arn       = (known after apply)
+      + stream_label     = (known after apply)
+      + stream_view_type = (known after apply)
+
+      + attribute {
+          + name = "LockID"
+          + type = "S"
+        }
+
+      + point_in_time_recovery {
+          + enabled = (known after apply)
+        }
+
+      + server_side_encryption {
+          + enabled     = (known after apply)
+          + kms_key_arn = (known after apply)
+        }
+    }
+
+  # aws_s3_bucket.tfstate will be created
+  + resource "aws_s3_bucket" "tfstate" {
+      + acceleration_status         = (known after apply)
+      + acl                         = "private"
+      + arn                         = (known after apply)
+      + bucket                      = "tf101-inflearn-apne2-tfstate"
+      + bucket_domain_name          = (known after apply)
+      + bucket_regional_domain_name = (known after apply)
+      + force_destroy               = false
+      + hosted_zone_id              = (known after apply)
+      + id                          = (known after apply)
+      + region                      = (known after apply)
+      + request_payer               = (known after apply)
+      + website_domain              = (known after apply)
+      + website_endpoint            = (known after apply)
+
+      + versioning {
+          + enabled    = true
+          + mfa_delete = false
+        }
+    }
+
+Plan: 2 to add, 0 to change, 0 to destroy.
+
+Do you want to perform these actions?
+  Terraform will perform the actions described above.
+  Only 'yes' will be accepted to approve.
+
+  Enter a value: yes # 입력받을 수 있는 stdin 출력됩니다.
+
+...생략
+
+Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
+
+```
+
+`terraform.tfstate`
+
+```bash
+{
+  "version": 4,
+  "terraform_version": "0.12.24",
+  "serial": 3,
+  "lineage": "3c77XXXX-2de4-7736-1447-038974a3c187",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "aws_dynamodb_table",
+      "name": "terraform_state_lock",
+      "provider": "provider.aws",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "arn": "arn:aws:dynamodb:ap-northeast-2:111111111111111111:table/inflearn-terraform-lock",
+            "attribute": [
+              {
+                "name": "LockID",
+                "type": "S"
+              }
+            ],
+            "billing_mode": "PAY_PER_REQUEST",
+            "global_secondary_index": [],
+            "hash_key": "LockID",
+            "id": "inflearn-terraform-lock",
+            "local_secondary_index": [],
+            "name": "inflearn-terraform-lock",
+            "point_in_time_recovery": [
+              {
+                "enabled": false
+              }
+            ],
+            "range_key": null,
+            "read_capacity": 0,
+            "server_side_encryption": [],
+            "stream_arn": "",
+            "stream_enabled": false,
+            "stream_label": "",
+            "stream_view_type": "",
+            "tags": null,
+            "timeouts": null,
+            "ttl": [
+              {
+                "attribute_name": "",
+                "enabled": false
+              }
+            ],
+            "write_capacity": 0
+          },
+          "private": "XXXXXXXXiOnsiY3JlYXRlIjo2MDAXXXXXAsImRlbGV0ZSIXX6NjAwMXXXXXXGRhdGUiOjM2MDAwMDAwMDAwMDB9LCJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_s3_bucket",
+      "name": "tfstate",
+      "provider": "provider.aws",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "acceleration_status": "",
+            "acl": "private",
+            "arn": "arn:aws:s3:::tf101-inflearn-apne2-tfstate",
+            "bucket": "tf101-inflearn-apne2-tfstate",
+            "bucket_domain_name": "tf101-inflearn-apne2-tfstate.s3.amazonaws.com",
+            "bucket_prefix": null,
+            "bucket_regional_domain_name": "tf101-inflearn-apne2-tfstate.s3.ap-northeast-2.amazonaws.com",
+            "cors_rule": [],
+            "force_destroy": false,
+            "hosted_zone_id": "Z3W03O7XXXXXXX",
+            "id": "tf101-inflearn-apne2-tfstate",
+            "lifecycle_rule": [],
+            "logging": [],
+            "object_lock_configuration": [],
+            "policy": null,
+            "region": "ap-northeast-2",
+            "replication_configuration": [],
+            "request_payer": "BucketOwner",
+            "server_side_encryption_configuration": [],
+            "tags": {},
+            "versioning": [
+              {
+                "enabled": true,
+                "mfa_delete": false
+              }
+            ],
+            "website": [],
+            "website_domain": null,
+            "website_endpoint": null
+          },
+          "private": "bnVsbA=="
+        }
+      ]
+    }
+  ]
 }
 
 ```
