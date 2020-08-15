@@ -8,7 +8,7 @@ pre: "<b></b>"
 ## zsh 설치
 
 zsh 은 Z shell 의 약자로써, shell 의 확장버전이라고 볼 수 있습니다.
-다양한 테마를 제공하고 shell 의 확자기능을 제공함으로써, 사용성이 좋은 기능을 포함하고 있습니다.
+다양한 테마를 제공하고 shell 의 확장기능을 제공함으로써 사용성을 높힐 수 있습니다.
 
 ex. Auto completion, Correction, plugin
 ![cli](./images/zsh.png)
