@@ -8,9 +8,9 @@ pre: "<b>3-1. </b>"
 
 ## Amazon VPC 개념
 
-Amazon VPC는 Amazon에서 제공해서는 Private한 네크워크 망입니다. 
-
-다음은 VPC의 핵심 개념입니다.
+Amazon VPC는 Amazon에서 제공하는 Private한 네크워크 망입니다. 
+는
+다음은 VPC의 핵심 구성요소입니다.
 
 - **Virtual Private Cloud(VPC)** — 사용자의 AWS 계정 전용 가상 네트워크입니다.
 - **서브넷** — VPC의 IP 주소 범위입니다.
