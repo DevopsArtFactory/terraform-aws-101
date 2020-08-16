@@ -1,7 +1,7 @@
 ---
 title: Private Subnet 및 NAT 구성
-weight: 36
-pre: "<b>3-2-e. </b>"
+weight: 35
+pre: "<b>3-2-d. </b>"
 ---
 
 {{% notice warning %}}

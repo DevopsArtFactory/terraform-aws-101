@@ -1,7 +1,7 @@
 ---
 title: Route Table 구성하기
-weight: 35
-pre: "<b>3-2-d. </b>"
+weight: 36
+pre: "<b>3-2-e. </b>"
 ---
 
 {{% notice info %}}
