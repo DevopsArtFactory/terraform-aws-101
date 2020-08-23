@@ -11,8 +11,9 @@ AWS의 접근하는 해당 권한을 정의하는 개체로 AWS IAM 리소스들
 즉 AWS IAM policy 는 user 에 할당 할 수 도, group 에 할당 할 수 있습니다.
 IAM policy 는 여러 타입으로 나누어져있습니다.\
 
-**AWS Managed policy**
-**AWS Managed policy**
+**AWS Managed policy**: AWS에서 먼저 생성해놓은 Policy set 입니다. 사용자가 권한(Permission)을 변경할 수 없습니다.
+
+**Customer Managed policy**: User 가 직접 생성하는 Policy 로 권한을 직접 상세하게 만들어 관리할 수 있습니다.
 
 ## IAM user policy 생성
 
