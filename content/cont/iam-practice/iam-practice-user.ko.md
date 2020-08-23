@@ -87,4 +87,14 @@ aws_iam_user.gildong_hong: Creation complete after 2s [id=gildong.hong]
 Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 ```
 
+AWS Console을 통해 IAM user 가 올바르게 생성되었는지 확인합니다.
+
+{{% notice info %}}
+위 Terraform 코드를 통해 IAM user 를 생성해주었다고 하더라도, console 을 접속할 수 는 없습니다.
+생성한 user의 password 가 설정되어있지 않기 때문입니다.
+비밀번호와 MFA는 직접 console을 통해 설정해야합니다.
+혹은 AWS CLI 를 통해서 자동화를 진행할 수 도 있습니다.
+물론 테라폼을 통해 설정을 할 수 도 있으나, aws_iam_user_login_profile 을 사용해야합니다.
+해당 리소스는 AWS와 Terraform 중급 수준의 이해가 있어야 사용이 편합니다.
+{{% /notice %}}
 

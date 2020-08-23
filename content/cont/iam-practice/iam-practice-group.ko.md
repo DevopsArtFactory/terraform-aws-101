@@ -4,6 +4,9 @@ weight: 37
 pre: "<b>3-5-b. </b>"
 ---
 
+{{% notice info %}}
+확인/생성/삭제는 이전과 동일하게 plan/apply/destroy 명령어를 사용하시면 됩니다. 여기서부터는 필요한 경우가 아니면 실행 부분은 생략하도록 하겠습니다.
+{{% /notice %}}
 
 ## IAM group 기본 생성
 
@@ -21,39 +24,7 @@ resource "aws_iam_group" "devops_group" {
 }
 ```
 
-Terraform Plan 명령어를 통해 생성되는 리소스를 확인합니다.
-
-```bash
-$ terraform plan
-Refreshing Terraform state in-memory prior to plan...
-The refreshed state will be used to calculate this plan, but will not be
-persisted to local or remote state storage.
-
-aws_iam_user.gildong_hong: Refreshing state... [id=gildong.hong]
-
-------------------------------------------------------------------------
-
-An execution plan has been generated and is shown below.
-Resource actions are indicated with the following symbols:
-  + create
-
-Terraform will perform the following actions:
-
-  # aws_iam_group.devops_group will be created
-  + resource "aws_iam_group" "devops_group" {
-      + arn       = (known after apply)
-      + id        = (known after apply)
-      + name      = "devops"
-      + path      = "/"
-      + unique_id = (known after apply)
-    }
-
-Plan: 1 to add, 0 to change, 0 to destroy.
-
-------------------------------------------------------------------------
-```
-
-Terraform apply 를 통해서 리소스를 생성합니다.
+Terraform Plan 명령어를 통해 생성되는 리소스를 확인 및 Apply 합니다. (plan 생략)
 
 ```bash
 $ terraform apply
@@ -109,42 +80,7 @@ resource "aws_iam_group_membership" "devops" {
 }
 ```
 
-Terraform Plan 명령어를 통해 생성되는 리소스를 확인합니다.
-
-```bash
-$ terraform plan
-Refreshing Terraform state in-memory prior to plan...
-The refreshed state will be used to calculate this plan, but will not be
-persisted to local or remote state storage.
-
-aws_iam_user.gildong_hong: Refreshing state... [id=gildong.hong]
-aws_iam_group.devops_group: Refreshing state... [id=devops]
-
-------------------------------------------------------------------------
-
-An execution plan has been generated and is shown below.
-Resource actions are indicated with the following symbols:
-  + create
-
-Terraform will perform the following actions:
-
-  # aws_iam_group_membership.devops will be created
-  + resource "aws_iam_group_membership" "devops" {
-      + group = "devops"
-      + id    = (known after apply)
-      + name  = "devops"
-      + users = [
-          + "gildong.hong",
-        ]
-    }
-
-Plan: 1 to add, 0 to change, 0 to destroy.
-
-------------------------------------------------------------------------
-```
-
-
-Terraform apply 를 통해서 리소스를 생성합니다.
+Terraform Plan 명령어를 통해 생성되는 리소스를 확인 및 Apply 합니다. (plan 생략)
 
 ```bash
 $ terraform apply
@@ -180,3 +116,10 @@ aws_iam_group_membership.devops: Creation complete after 1s [id=devops]
 
 Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 ```
+
+AWS Console 을 통해 user 와 group 이 올바르게 연결되었는지 확인합니다.
+
+{{% notice info %}}
+AWS IAM policy 와 group policy 는 'or' 조건을 따른다고 생각하면 편합니다.
+allow permission은 합집합으로 permission을 검사합니다.
+{{% /notice %}}
