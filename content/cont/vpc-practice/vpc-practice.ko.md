@@ -10,7 +10,7 @@ pre: "<b>3-2-a. </b>"
 Terraform을 통해서 VPC를 생성해보도록 하겠습니다. VPC를 생성할 때는 `aws_vpc`  리소스를 사용하시면 되고,  필수적으로 필요한 설정은 `cidr_block` 입니다.
 
 {{% notice tip %}}
-CDIR은 중요한 개념이므로 [위키백과](https://ko.wikipedia.org/wiki/%EC%82%AC%EC%9D%B4%EB%8D%94_(%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%82%B9)
+CIDR은 중요한 개념이므로 [위키백과](https://ko.wikipedia.org/wiki/%EC%82%AC%EC%9D%B4%EB%8D%94_(%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%82%B9)
 )를 반드시 한 번 읽어보시는 것을 추천드립니다.
 {{% /notice %}}
 
