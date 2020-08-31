@@ -56,7 +56,7 @@ provider "aws" {
 
 # S3 bucket for backend
 resource "aws_s3_bucket" "tfstate" {
-  bucket = "tf101-inflearn-apne2-tfstate"
+  bucket = "tf101-jupiter-apne2-tfstate"
 
   versioning {
     enabled = true # Prevent from deleting tfstate file
@@ -65,7 +65,7 @@ resource "aws_s3_bucket" "tfstate" {
 
 # DynamoDB for terraform state lock
 resource "aws_dynamodb_table" "terraform_state_lock" {
-  name           = "inflearn-terraform-lock"
+  name           = "terraform-lock"
   hash_key       = "LockID"
   billing_mode   = "PAY_PER_REQUEST"
 
@@ -123,7 +123,7 @@ Terraform will perform the following actions:
       + acceleration_status         = (known after apply)
       + acl                         = "private"
       + arn                         = (known after apply)
-      + bucket                      = "tf101-inflearn-apne2-tfstate"
+      + bucket                      = "tf101-jupiter-apne2-tfstate"
       + bucket_domain_name          = (known after apply)
       + bucket_regional_domain_name = (known after apply)
       + force_destroy               = false
@@ -241,7 +241,7 @@ Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
         {
           "schema_version": 1,
           "attributes": {
-            "arn": "arn:aws:dynamodb:ap-northeast-2:111111111111111111:table/inflearn-terraform-lock",
+            "arn": "arn:aws:dynamodb:ap-northeast-2:111111111111111111:table/terraform-lock",
             "attribute": [
               {
                 "name": "LockID",
@@ -291,15 +291,15 @@ Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
           "attributes": {
             "acceleration_status": "",
             "acl": "private",
-            "arn": "arn:aws:s3:::tf101-inflearn-apne2-tfstate",
+            "arn": "arn:aws:s3:::tf101-jupiter-apne2-tfstate",
             "bucket": "tf101-inflearn-apne2-tfstate",
-            "bucket_domain_name": "tf101-inflearn-apne2-tfstate.s3.amazonaws.com",
+            "bucket_domain_name": "tf101-jupiter-apne2-tfstate.s3.amazonaws.com",
             "bucket_prefix": null,
-            "bucket_regional_domain_name": "tf101-inflearn-apne2-tfstate.s3.ap-northeast-2.amazonaws.com",
+            "bucket_regional_domain_name": "tf101-jupiter-apne2-tfstate.s3.ap-northeast-2.amazonaws.com",
             "cors_rule": [],
             "force_destroy": false,
             "hosted_zone_id": "Z3W03O7XXXXXXX",
-            "id": "tf101-inflearn-apne2-tfstate",
+            "id": "tf101-jupiter-apne2-tfstate",
             "lifecycle_rule": [],
             "logging": [],
             "object_lock_configuration": [],
