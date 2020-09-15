@@ -38,7 +38,7 @@ variable "availability_zone_names" {
 }
 
 variable "ami_id_maps" {
-  type = map(map)
+  type = map
   default = {}
 }
 ```
