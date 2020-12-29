@@ -1,6 +1,6 @@
 ---
 title: AWS Configure 구성
-weight: 22
+weight: 23
 ---
 
 ## AWS Configure 세팅하기
