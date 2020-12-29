@@ -1,6 +1,6 @@
 ---
 title: Terraform 기본
-weight: 23
+weight: 24
 ---
 
 ## **Terraform 기본 개념**

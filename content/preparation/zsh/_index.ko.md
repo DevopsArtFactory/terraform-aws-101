@@ -1,6 +1,6 @@
 ---
 title: ZSH 및 OH-MY-ZSH 설치
-weight: 20 
+weight: 21
 pre: "<b></b>"
 ---
 

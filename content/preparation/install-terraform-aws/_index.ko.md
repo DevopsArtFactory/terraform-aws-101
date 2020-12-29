@@ -1,6 +1,6 @@
 ---
 title: AWS CLI 및 Terraform 설치
-weight: 21
+weight: 22
 ---
 
 ## AWS CLI 설치
